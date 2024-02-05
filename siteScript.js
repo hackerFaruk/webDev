@@ -10,7 +10,7 @@ function generateRandomNumber() {
 
   // Function to handle the button click event
   function getAPI() {
-    console.log("data fetch");
+    console.log("request made");
     // Send a GET request to the API endpoint
     fetch('http://localhost:3000/api/random-number')
         .then(response => {
