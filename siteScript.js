@@ -11,6 +11,8 @@ function generateRandomNumber() {
   // Function to handle the button click event
   function getAPI() {
     console.log("request made");
+    // if fetch gets cors error 
+    // npm install cors
     // Send a GET request to the API endpoint
     fetch('http://localhost:3000/api/random-number')
         .then(response => {
