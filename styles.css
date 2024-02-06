@@ -18,15 +18,17 @@ font-weight: bold;
 #animationElement{
     background-color: aqua;
 height: 50px;
-width: 200px;
+text-align: center;
+border-radius: 25px;
 transition: all 0.3s;
+width: 400px;
+
 
 }
 
 .animate{
     
-    width: 400px;
-    border-radius: 25px;
+   
 
       /* Define animation properties */
   animation-name: fadeIn; /* Name of the keyframes animation */
@@ -38,9 +40,12 @@ transition: all 0.3s;
 /* Define keyframes for the animation */
 @keyframes fadeIn {
     from {
-      opacity: 0; /* Start state */
+      opacity: 0;
+      transform: translateX(-300px); /* Start state */
     }
     to {
-      opacity: 1; /* End state */
+      opacity: 1;
+      transform: translateX(300px); /* Start state */
+      /* End state */
     }
   }
