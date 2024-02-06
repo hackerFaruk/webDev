@@ -20,10 +20,27 @@ font-weight: bold;
 height: 50px;
 width: 200px;
 transition: all 0.3s;
-opacity: 1;
+
 }
 
 .animate{
-    opacity: 0;
+    
     width: 400px;
+    border-radius: 25px;
+
+      /* Define animation properties */
+  animation-name: fadeIn; /* Name of the keyframes animation */
+  animation-duration: 5s; /* Duration of the animation */
+  animation-fill-mode: forwards; /* Keep the last keyframe when animation ends */
+
 }
+
+/* Define keyframes for the animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Start state */
+    }
+    to {
+      opacity: 1; /* End state */
+    }
+  }

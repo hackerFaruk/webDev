@@ -69,11 +69,13 @@ function isInViewport(element) {
 
 // Function to handle scroll event
 function handleScroll() {
-  if (isInViewport(animationElement)) {
-    animationElement.classList.add("animate");
+    // when scrolled into viewport adds animate class which plays animation 
+    if (isInViewport(animationElement)) {
+      animationElement.classList.add("animate");
+    } else {
+      animationElement.classList.remove("animate");
+    }
   }
-}
-
 // Add event listener for scroll event
 window.addEventListener("scroll", handleScroll);
 
