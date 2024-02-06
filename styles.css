@@ -22,15 +22,13 @@ text-align: center;
 border-radius: 25px;
 transition: all 0.3s;
 width: 400px;
-
-
 }
+
+
 
 .animate{
     
-   
-
-      /* Define animation properties */
+   /* Define animation properties */
   animation-name: fadeIn; /* Name of the keyframes animation */
   animation-duration: 5s; /* Duration of the animation */
   animation-fill-mode: forwards; /* Keep the last keyframe when animation ends */

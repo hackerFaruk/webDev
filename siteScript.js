@@ -50,7 +50,7 @@ document.getElementById('generateButton').addEventListener('click', generateRand
 
 
 
-// scroll animation 
+// scroll animation ------------------------------
 
 
 // Get a reference to the animated element
@@ -81,3 +81,6 @@ window.addEventListener("scroll", handleScroll);
 
 // Trigger initial check in case element is already in viewport
 handleScroll();
+
+
+
