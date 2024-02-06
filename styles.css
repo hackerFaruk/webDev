@@ -4,10 +4,26 @@ justify-content: center;
 align-items: center;
 width: 100vw;
 height: 100px;
-
 }
+
+
+body{ height: 300vh;}
 
 .textSpace{
 font-weight: bold;
 
+}
+
+
+#animationElement{
+    background-color: aqua;
+height: 50px;
+width: 200px;
+transition: all 0.3s;
+opacity: 1;
+}
+
+.animate{
+    opacity: 0;
+    width: 400px;
 }
